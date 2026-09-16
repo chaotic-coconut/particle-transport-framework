@@ -26,7 +26,7 @@ option(PARTICLE_TRACKER_BUILD_EXAMPLES "Build the simulation executables" ON)
 # Only the compilers this project is actually built and tested with are listed.
 # The project has never been built with MSVC and does not claim to support it.
 set(PK_WARNING_FLAGS
-  $<$<CXX_COMPILER_ID:GNU,Clang,AppleClang>:-Wall;-Wextra>)
+  $<$<CXX_COMPILER_ID:GNU,Clang>:-Wall;-Wextra>)
 
 add_library(particle_tracker INTERFACE)
 add_library(particle_transport_framework::particle_tracker ALIAS particle_tracker)
