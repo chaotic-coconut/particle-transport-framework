@@ -13,7 +13,7 @@ NetCDF datasets and the corresponding variable names and file patterns.
 
 ## Main components
 
-- NetCDF C++4 input for HYCOM-style gridded fields
+- NetCDF input for HYCOM-style gridded fields
 - cubic spline interpolation in time
 - 2D longitude/latitude kd-tree searches with nanoflann
 - Gaussian spatial weighting based on great-circle distance
